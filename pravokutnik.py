@@ -66,7 +66,7 @@ def determine_shape(points):
             return "pravokutnik"
 
 def main():
-    file_path = "coordinates.txt"
+    file_path = "coordinates2D.txt"
     all_points = read_points(file_path)
     points = all_points[:-1]
     test_point = all_points[-1]
