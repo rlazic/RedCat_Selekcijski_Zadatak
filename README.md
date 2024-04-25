@@ -16,10 +16,11 @@ Dodatak
 
 ### RJEŠENJE:
 
-Datoteka **pravokutnik.py** daje rješenje za **osnovni dio zadatka i prvu točku dodatka**.
+Datoteka **pravokutnik.py** sadrži rješenje za **osnovni dio zadatka i prvu točku dodatka**.
 
-Datoteka **kvadar.py** daje rješenje za **drugu i treću točku dodatka**.
+Datoteka **kvadar.py** sadrži rješenje za **drugu i treću točku dodatka**.
 
+Datoteke **koordinate2D.txt** i **koordinate3D.txt** sadrže koordinate zadanih točaka. Koordinate su odvojene sa zarezom i razmakom (', ').
 <br>
 
 **pravokutnik.py**
