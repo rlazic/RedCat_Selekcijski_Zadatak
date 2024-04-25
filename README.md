@@ -23,7 +23,7 @@ Datoteka **kvadar.py** daje rješenje za **drugu i treću točku dodatka**.
 <br>
 
 **pravokutnik.py**
-. učitava koordinate iz datoteke, te ih pohranjuje u listu Numpy nizova
+- učitava koordinate iz datoteke, te ih pohranjuje u listu Numpy nizova
 - provjerava čine li zadane točke vrhove pravokutnog trokuta. U tom slučaju, zadane točke ujedno čine i vrhove pravokutnika.
 - provjerava nalazi li se točka X unutar pravokutnika na način da definira koordinatne granice pravokutnika i uspoređuje ih sa koordinatama točke X
 - računa duljinu dijagonale na način da prvo definira udaljenosti između svih parova zadanih točaka (drugim riječima stranice pravokutnog trokuta), te zatim definira najdulju stranicu koja je ujedno i dijagonala pravokutnika
