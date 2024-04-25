@@ -59,7 +59,7 @@ def spatial_diagonal(points):
             return max_magnitude
 
 def main():
-    file_path = "coordinates3D.txt"
+    file_path = "koordinate3D.txt"
     all_points = read_points(file_path)
     points = all_points[:-1]
     test_point = all_points[-1] 
