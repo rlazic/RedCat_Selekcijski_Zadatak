@@ -3,7 +3,7 @@ import numpy as np
 # funkcija učitava točke iz datoteke
 def read_points(file_path):
     with open(file_path, 'r') as file:
-        all_points = [np.array(list(map(float, line.strip().split(', ')))) for line in file]
+        all_points = [np.fromstring(line.strip(), sep=',') for line in file]
     return all_points
 
 # funkcija provjerava čine li zadane točke vrhove zajedničkog kvadra
