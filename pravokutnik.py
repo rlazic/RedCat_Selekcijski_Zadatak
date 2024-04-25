@@ -77,7 +77,7 @@ def main():
         print('- Zadane točke ne čine vrhove zajedničkog pravokutnika')
         quit()
     
-    print("- Točka X nalazi se unutar pravokutnika" if is_point_inside(points, test_point) else "Točka X ne nalazi se unutar pravokutnika")
+    print("- Točka X nalazi se unutar pravokutnika" if is_point_inside(points, test_point) else "- Točka X ne nalazi se unutar pravokutnika")
     print(f"- Duljina dijagonale je {max(vector_magnitudes(points)):.2f}")
     print(f"- Zadane točke čine {determine_shape(points)}")
     
